@@ -61,6 +61,11 @@ ul li {
     list-style-type: circle;
     color: black;
 }
+/** a=0 b=0 c=2 **/
+nav li{
+    display: inline;
+    float: left;
+}
 /** a=0 b=1 c=1 **/
 a:link {
     color: blue;
