@@ -61,9 +61,9 @@ ul li {
     list-style-type: circle;
     color: black;
 }
-/** a=0 b=0 c=2 **/
-nav li{
-    display: grid;
+/** a=0 b=0 c=3 **/
+nav ul li {
+    list-style-type: disc;
 }
 /** a=0 b=1 c=1 **/
 a:link {
