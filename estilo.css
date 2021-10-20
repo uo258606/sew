@@ -63,11 +63,11 @@ ul li {
 }
 /** a=0 b=1 c=1 **/
 a:link {
-    color: violet;
+    color: red;
 }
 /** a=0 b=1 c=1 **/
 a:visited {
-    color: darkviolet;
+    color: darkred;
 }
 
 /** a=0 b=0 c=1 **/
