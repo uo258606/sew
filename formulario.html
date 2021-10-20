@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Victor Suarez Sierra" />
+    <meta name="description" content="Formulario acerca de Margaret Hamilton y su relevanciaen la historia de la informática" />
+    <meta name="keywords" content="Margaret,Hamilton,formulario, conocimiento, cultura" />
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <header>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1> Este es un formulario acerca de Margaret Hamilton </h1>
+        <nav>
+            <h2>Menú de Navegación</h2>
+            <ul class = "navigation">
+                <li><a title="Introducción" accesskey="I" href="index.html" tabindex="1"> Introducción</a></li>
+                <li><a title="Biografía" accesskey="B" href="biografia.html" tabindex="2"> Biografía</a></li>
+                <li><a title="Formulario acerca de Margaret" accesskey="F" href="formulario.html" tabindex="3"> Formulario acerca de Margaret</a></li>
+                <li><a title="Video Informativo" accesskey="V" href="informacion.html" tabindex="4"> Video Informativo</a></li>
+                <li><a title="Publicaciones literarias" accesskey="P" href="publicaciones.html" tabindex="5"> Publicaciones literarias</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <section>
+    <h2> ¿Cómo de relevantes fueron sus aportaciones a la informática? </h2>
+
+    <form> 
+        <p><label for="nombre">Nombre del cliente: <input id="nombre"></label></p>
+        <p><label for="mail">Dirección de correo: <input type=email id="mail"></label></p>
+        <fieldset>
+            <legend> ¿Concía a Margaret Hamilton con anterioridad? </legend>
+            <p><label for="si"> <input type=radio name=response id="si"> Sí </label></p>
+            <p><label for="no"> <input type=radio name=response id="no"> No </label></p>
+        </fieldset>
+        <fieldset>
+            <legend> ¿Qué aportaciones conocía de Margaret Hamilton? </legend>
+            <p><label for="SAGE"> <input type=checkbox id="SAGE"> Trabajó en el Proyecto Semi-Automatic Ground Environment (SAGE) </label></p>
+            <p><label for="MIT"> <input type=checkbox id="MIT"> Directora de la División de Ingeniería de Software del Laboratorio de Instrumentación del MIT </label></p>
+            <p><label for="Apolo"> <input type=checkbox id="Apolo"> Su equipo desarrolló el software de navegación para el Programa Espacial Apolo</label></p>
+            <p><label for="HOS"> <input type=checkbox id="HOS"> Cofundó una empresa llamada Higher Order Software (HOS) </label></p>
+        </fieldset>
+        <p>
+            <label for="opinion"> Opinión Personal
+                <textarea id="opinion">
+                </textarea>
+            </label>
+        </p>
+        <p><label for="boton"> <input type="submit" value="Enviar" id="boton"></label></p>
+    </form>
+    </section>
+</body>
+</html>

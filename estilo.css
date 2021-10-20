@@ -1,17 +1,88 @@
-/*Especificidad: 001*/
-body {
-    font-family: Tahoma, sans-serif;
-    color: #818181;
-    background-color: #fff;
-    }
-  /*Especificidad: 001*/
-  h1 {
-    color: #fff;    
-    background-color:#FF5733; 
-    text-transform: uppercase;
-    padding: 2em; 
-    text-align: center;     
-    }
-  
-  
-  
+/** a=0 b=0 c=1 **/
+body { color: black;
+    background-color: #ffe4f9;
+    font-family: Arial, serif;
+    font-size:15px;
+    text-align: justify;
+}
+header {
+    grid-area: header;
+}
+section {
+    line-height: 23px;
+}
+/** a=0 b=0 c=1 **/
+H1 {
+    background-color : #8888ff;
+    font-size : 38pt;
+    font-family : "Times New Roman", fantasy;
+    font-weight: 600;
+    text-align : center;
+    border: 5px solid black
+}
+/** a=0 b=0 c=1 **/
+H2 {
+    font-size:24pt;
+    font-family: "Times New Roman", fantasy;
+}
+/** a=0 b=0 c=1 **/
+H3 {
+    font-size : 20pt;
+    font-family : "Times New Roman", fantasy;
+}
+/** a=0 b=0 c=1 **/
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 15px 0;
+    border-collapse: separate;
+}
+/** a=0 b=0 c=1 **/
+td {
+    width: 20%;
+    text-align: left;
+    border: 2px solid black;
+}
+/** a=0 b=0 c=1 **/
+th {
+    width: 20%;
+    text-align: left;
+    border: 2px solid black;
+    background-color : #8888ff;
+}
+
+/** a=0 b=0 c=1 **/
+ul {
+    list-style-type: decimal;
+    
+}
+/** a=0 b=0 c=2 **/
+ul li {
+    list-style-type: circle;
+    color: black;
+}
+/** a=0 b=1 c=1 **/
+a:link {
+    color: violet;
+}
+/** a=0 b=1 c=1 **/
+a:visited {
+    color: darkviolet;
+}
+
+/** a=0 b=0 c=1 **/
+textarea {
+    margin: 0px;
+    width: 418px;
+    height: 97px;
+}
+
+/** a=0 b=0 c=1 **/
+video {
+    margin: 0px;
+    width: 418px;
+    height: 297px;
+}
+
+
+    
